@@ -5,9 +5,6 @@ tasks:
   default:
     deps: [ clone:ananke ]
     desc: Ensure the required theme repos are cloned
-    dir: ..
-    cmds:
-      - task build
 
   clone:ananke:
     internal: true

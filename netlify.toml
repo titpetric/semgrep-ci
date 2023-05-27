@@ -1,7 +1,7 @@
 [build]
 base = "./site/"
 publish = "./public/"
-command = "hugo --gc --minify"
+command = "./bin/task"
 
 [context.production.environment]
 HUGO_ENV = "production"

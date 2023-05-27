@@ -1,16 +1,30 @@
 ---
 version: "3"
 
+includes:
+  site: ./site/Taskfile.yml
+
 tasks:
+  default:
+    desc: Setup project
+    deps: [ themes ]
+
   build:
     desc: Build site
+    deps: [ themes ]
     cmds:
-      - hugo --gc --minify
+      - ./bin/hugo --gc --minify
 
   dev:
+    deps: [ themes ]
     desc: Start hugo locally
     cmds:
       - docker compose build
       - docker compose up
 
-    
+  themes:
+    internal: true
+    silent: true
+    dir: ./site
+    cmds:
+      - task
