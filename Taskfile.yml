@@ -2,8 +2,15 @@
 version: "3"
 
 tasks:
-  start:
+  build:
+    desc: Build site
+    cmds:
+      - hugo --gc --minify
+
+  dev:
     desc: Start hugo locally
     cmds:
       - docker compose build
       - docker compose up
+
+    

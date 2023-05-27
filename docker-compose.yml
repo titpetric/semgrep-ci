@@ -2,6 +2,7 @@ version: '3'
 
 services:
   hugo:
+    image: semgrep-ci/hugo
     build: .
     ports:
       - 1313:1313
