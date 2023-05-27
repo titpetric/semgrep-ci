@@ -9,7 +9,7 @@ description: ""
 license: "MIT"
 images: []
 
-tags: ["semgrep-ci"]
+tags: []
 categories: ["Semgrep CI"]
 
 featuredImage: ""
