@@ -8,5 +8,5 @@ export PATH=$PATH:/opt/build/repo/site/bin
 # clone themes
 cd themes && task && cd -
 
-# exec hugo build
-exec hugo --gc --minify
+# run hugo build
+hugo --gc --minify
