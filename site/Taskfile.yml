@@ -1,0 +1,24 @@
+---
+version: "3"
+
+tasks:
+  default:
+    deps: [ clone:ananke ]
+    desc: Ensure the required theme repos are cloned
+    dir: ..
+    cmds:
+      - task build
+
+  clone:ananke:
+    internal: true
+    status:
+    - stat themes/ananke
+    cmds:
+    - git clone https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+
+  clone:meghna:
+    internal: true
+    status:
+    - stat themes/meghna
+    cmds:
+    - git clone https://github.com/themefisher/meghna-hugo.git themes/meghna
