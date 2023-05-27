@@ -4,18 +4,18 @@ version: "3"
 tasks:
   default:
     deps: [ clone:ananke, clone:meghna ]
-    desc: Ensure repos are cloned
+    desc: Ensure theme repos are cloned
 
   clone:ananke:
     internal: true
     status:
-    - type ananke
+    - stat ananke
     cmds:
-    - git clone git@github.com:budparr/gohugo-theme-ananke.git ananke
+    - git clone https://github.com/budparr/gohugo-theme-ananke.git ananke
 
   clone:meghna:
     internal: true
     status:
-    - type meghna
+    - stat meghna
     cmds:
-    - git clone git@github.com:themefisher/meghna-hugo.git meghna
+    - git clone https://github.com/themefisher/meghna-hugo.git meghna
