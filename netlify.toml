@@ -1,7 +1,7 @@
 [build]
 base = "./site/"
 publish = "./dist/"
-command = "../netlify.sh"
+command = "./build.sh"
 
 [context.production.environment]
 HUGO_VERSION = "0.112.3"
