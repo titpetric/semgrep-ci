@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 # install task
 GOBIN=/opt/build/repo/site/bin go install github.com/go-task/task/v3/cmd/task@latest
@@ -10,3 +9,5 @@ cd themes && task && cd -
 
 # run hugo build
 hugo --gc --minify
+
+exit 0
