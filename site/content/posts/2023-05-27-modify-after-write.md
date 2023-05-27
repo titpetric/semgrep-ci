@@ -3,7 +3,7 @@ title: "Modify after write"
 date: 2023-05-27T20:30:59+02:00
 lastmod: 2023-05-27T20:30:59+02:00
 draft: false
-author: "Tit Petric"
+author: " Tit Petric"
 authorLink: "https://github.com/titpetric"
 description: ""
 license: "MIT"

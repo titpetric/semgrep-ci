@@ -51,7 +51,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 # 作者配置
 [author]
-  name = "Tit Petric"
+  name = " Tit Petric"
   email = "black@scene-si.org"
   link = "https://scene-si.org"
 
