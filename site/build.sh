@@ -1,8 +1,15 @@
 #!/bin/bash
-if [ -d "themes/ananke" ]; then
-	echo "themes/ananke OK"
-else
-	git clone --depth=1 https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-fi
+set -e
+
+function clone {
+	path=$1
+	url=$2
+
+	if [ ! -d "$path" ]; then
+		git clone --depth=1 $url.git $path
+	fi
+}
+
+clone themes/LoveIt https://github.com/dillonzq/LoveIt
 
 hugo --gc --minify $@
