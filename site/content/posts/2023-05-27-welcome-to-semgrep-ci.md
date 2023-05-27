@@ -60,9 +60,11 @@ seo:
 
 <!--more-->
 
-Hello, my name is Tit Petric. I'm a Senior Engineer working on Go code at [Tyk Technologies](https://tyk.io).
-I'm working on back-end code for the open source [Tyk API Gateway](https://github.com/TykTechnologies/tyk) and
-other internal projects like the [Tyk Dashboard](https://tyk.io/docs/tyk-dashboard/).
+Hello, my name is Tit Petric. I'm a Senior Engineer working on Go code at
+[Tyk Technologies](https://tyk.io). I'm working on back-end code for the
+open source [Tyk API Gateway](https://github.com/TykTechnologies/tyk) and
+the [Tyk Dashboard](https://tyk.io/docs/tyk-dashboard/) API management
+product.
 
 I've started the Semgrep Code Intelligence project to collect test
 utilities, toolings, reports, code review feedback, experiments and other
