@@ -13,7 +13,7 @@ tasks:
     desc: Build site
     deps: [ themes ]
     cmds:
-      - ./bin/hugo --gc --minify
+      - hugo --gc --minify
 
   dev:
     deps: [ themes ]
