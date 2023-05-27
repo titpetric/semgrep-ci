@@ -12,4 +12,6 @@ function clone {
 
 clone themes/LoveIt https://github.com/dillonzq/LoveIt
 
+rsync -a ./patch/ ./
+
 hugo --gc --minify $@
