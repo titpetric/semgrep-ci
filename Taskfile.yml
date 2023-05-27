@@ -1,0 +1,13 @@
+---
+version: "3"
+
+tasks:
+  build:
+    desc: Build the blog
+    cmds:
+      - docker compose build
+
+  start:
+    desc: Start hugo locally
+    cmds:
+      - docker compose up
