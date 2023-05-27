@@ -58,8 +58,6 @@ seo:
   # ...
 ---
 
-<!--more-->
-
 Hello, my name is Tit Petric. I'm a Senior Engineer working on Go code at
 [Tyk Technologies](https://tyk.io). I'm working on back-end code for the
 open source [Tyk API Gateway](https://github.com/TykTechnologies/tyk) and
@@ -71,6 +69,8 @@ utilities, toolings, reports, code review feedback, experiments and other
 development efforts aimed to improve the process around development and
 the overall vibe of the codebase. Knowing what to fix requires knowing
 what is there and how it's coupled.
+
+<!--more-->
 
 This blog has three main focus areas:
 
