@@ -12,6 +12,7 @@ tasks:
   build:
     desc: Build site
     deps: [ themes ]
+    dir: ./site
     cmds:
       - hugo --gc --minify
 
