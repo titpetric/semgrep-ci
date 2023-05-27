@@ -1,7 +1,7 @@
 [build]
 base = "./site/"
 publish = "./public/"
-command = "hugo --gc --minify"
+command = "./build.sh"
 
 [context.production.environment]
 HUGO_VERSION = "0.112.3"
@@ -10,13 +10,13 @@ HUGO_ENABLEGITINFO = "true"
 GO_VERSION = "1.20"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture --baseURL $DEPLOY_PRIME_URL"
+command = "./build.sh --buildFuture --baseURL $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.112.3"
 
 [context.branch-deploy]
-command = " --baseURL $DEPLOY_PRIME_URL"
+command = "./build.sh --baseURL $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.113.3"
