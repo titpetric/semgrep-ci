@@ -846,7 +846,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [languages.en.params.social]
         GitHub = "titpetric"
         Twitter = "titpetric"
-        Instagram = "titpetric"
+        Instagram = ""
         Facebook = ""
         Telegram = ""
         Youtubelegacy = ""
