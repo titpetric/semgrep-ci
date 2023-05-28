@@ -1,7 +1,7 @@
 ---
 title: "Modify after write"
-date: 2023-05-27T20:30:59+02:00
-lastmod: 2023-05-27T20:30:59+02:00
+date: 2023-05-27T21:30:59+02:00
+lastmod: 2023-05-27T21:30:59+02:00
 draft: false
 author: " Tit Petric"
 authorLink: "https://github.com/titpetric"
